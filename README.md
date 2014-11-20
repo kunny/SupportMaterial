@@ -15,7 +15,7 @@ You can get this library on the [Maven Central repository](http://search.maven.o
 	}
 
 	dependencies {
-	    // Other depedncies...
+	    // Other depedencies...
 	    compile 'com.androidhuman:support-material:0.1.0@aar' // Add this line
 	}
 
