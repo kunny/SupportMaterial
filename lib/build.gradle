@@ -22,7 +22,6 @@ android {
     buildToolsVersion "21.1.1"
 
     defaultConfig {
-        applicationId "com.androidhuman.supportmaterial"
         minSdkVersion 7
         targetSdkVersion 21
         versionCode 1

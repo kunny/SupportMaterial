@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+* Copyright (C) 2015 Taeho Kim <jyte82@gmail.com>
+*
+* Licensed under the Apache License, Version 2.0 (the "License");
+* you may not use this file except in compliance with the License.
+* You may obtain a copy of the License at
+*
+*      http://www.apache.org/licenses/LICENSE-2.0
+*
+* Unless required by applicable law or agreed to in writing, software
+* distributed under the License is distributed on an "AS IS" BASIS,
+* WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+* See the License for the specific language governing permissions and
+* limitations under the License.
+-->
+<resources>
+
+    <string name="app_name">SupportMaterial Samples</string>
+
+    <string name="title_activity_typography">Typography</string>
+    <string name="display_4" translatable="false">Display 4</string>
+    <string name="display_3" translatable="false">Display 3</string>
+    <string name="display_2" translatable="false">Display 2</string>
+    <string name="display_1" translatable="false">Display 1</string>
+    <string name="headline" translatable="false">Headline</string>
+    <string name="title" translatable="false">Title</string>
+    <string name="subhead" translatable="false">Subhead</string>
+    <string name="body_2" translatable="false">Body 2</string>
+    <string name="body_1" translatable="false">Body 1</string>
+    <string name="caption" translatable="false">Caption</string>
+    <string name="button" translatable="false">Button</string>
+
+    <string name="title_activity_color">Color</string>
+    <string name="red">Red</string>
+    <string name="indigo">Indigo</string>
+    <string name="teal">Teal</string>
+    <string name="orange">Orange</string>
+    <string name="grey">Grey</string>
+    <string name="degree_300" translatable="false">300</string>
+    <string name="degree_500" translatable="false">500</string>
+    <string name="degree_700" translatable="false">700</string>
+
+</resources>
