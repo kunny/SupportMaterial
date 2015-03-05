@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mtrl_keyline_1">16dp</dimen>
+    <dimen name="mtrl_keyline_2">72dp</dimen>
+    <dimen name="mtrl_keyline_extra">32dp</dimen>
+
+    <dimen name="mtrl_vertical_spacing_status_bar">24dp</dimen>
+    <dimen name="mtrl_vertical_spacing_appbar">56dp</dimen>
+    <dimen name="mtrl_vertical_spacing_large_header">48dp</dimen>
+    <dimen name="mtrl_vertical_spacing_divider">8dp</dimen>
+    <dimen name="mtrl_vertical_spacing_list_item_height_oneline">48dp</dimen>
+    <dimen name="mtrl_vertical_spacing_list_item_height_twoline">72dp</dimen>
+</resources>

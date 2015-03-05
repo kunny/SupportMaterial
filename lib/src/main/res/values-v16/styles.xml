@@ -35,6 +35,7 @@
     <style name="MaterialTextAppearance.Button">
         <item name="android:textSize">14sp</item>
         <item name="android:textAllCaps">true</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
     </style>
 
     <style name="MaterialTextAppearance.Headline">

@@ -6,7 +6,7 @@ This library provides useful resources for applying Google's [Material Design](h
 
 ## Usage
 
-You can get this library on the [Maven Central repository](http://search.maven.org/). All you have to do is just adding  `com.androidhuman:support-material:0.1.1@aar` as a dependency to your `build.gradle` file.
+You can get this library on the [Maven Central repository](http://search.maven.org/). All you have to do is just adding  `com.androidhuman:support-material:0.1.2@aar` as a dependency to your `build.gradle` file.
 
 	apply plugin: 'com.android.application'
 
@@ -16,7 +16,7 @@ You can get this library on the [Maven Central repository](http://search.maven.o
 
 	dependencies {
 	    // Other depedencies...
-	    compile 'com.androidhuman:support-material:0.1.1@aar' // Add this line
+	    compile 'com.androidhuman:support-material:0.1.2@aar' // Add this line
 	}
 
 ## Supported items
@@ -25,23 +25,23 @@ You can get this library on the [Maven Central repository](http://search.maven.o
 
 Color values listed on [Style > Color](http://www.google.com/design/spec/style/color.html#color-color-palette) section.
 
-Each item's name is formatted as `material_{COLOR_NAME}_{DEGREE}`. For instance, for Material Purple with degree of 500, its name will be `material_purple_500`.
+Each item's name is formatted as `mtrl_{COLOR_NAME}_{DEGREE}`. For instance, for Material Purple with degree of 500, its name will be `mtrl_purple_500`.
 
 ####Usage in code
 
     TextView tv = (TextView) findViewById(R.id.tv);
-    tv.setTextColor(getResources().getColor(R.color.material_pink_500));
+    tv.setTextColor(getResources().getColor(R.color.mtrl_pink_500));
 
 ####Usage in resource
 
 	<resources>
 	    <!-- Base application theme. -->
 	    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
-	        <item name="colorAccent">@color/material_pink_a200</item>
-	        <item name="colorPrimary">@color/material_indigo_500</item>
-	        <item name="colorPrimaryDark">@color/material_indigo_700</item>
-	        <item name="colorControlHighlight">@color/material_blue_500</item>
-	        <item name="colorControlNormal">@color/material_grey_500</item>
+	        <item name="colorAccent">@color/mtrl_pink_a200</item>
+	        <item name="colorPrimary">@color/mtrl_indigo_500</item>
+	        <item name="colorPrimaryDark">@color/mtrl_indigo_700</item>
+	        <item name="colorControlHighlight">@color/mtrl_blue_500</item>
+	        <item name="colorControlNormal">@color/mtrl_grey_500</item>
 	    </style>
 	</resources>
 
@@ -68,13 +68,24 @@ Since applying font family([android:fontFamily](http://developer.android.com/ref
 |  Caption    | @style/MaterialTextApperance.Caption  |
 |  Button     | @style/MaterialTextApperance.Button   |
 
-### Keyline
-Coming soon!
+### Keylines
+
+Keylines and spacing listed on [Layout > Metrics & keylines](http://www.google.com/design/spec/layout/metrics-keylines.html#metrics-keylines-keylines-spacing) section.
+
+List of supported items:
+
+- Keylines
+- Vertical spacing
 
 ## Sample
 See the usage in sample application, located at the `samples` folder.
 
 ## History
+### 0.1.2
+- Rename prefix 'material_' to 'mtrl_' in color values
+- Keylines and vertical spacing support
+- Fix missing attribute in `MaterialTextAppearance.Button`
+
 ### 0.1.1
 - Add Typography support
 - Add sample application
